@@ -1,17 +1,187 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hant">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="HR × Career 人資顧問服務，協助企業完善人事制度，也陪伴人才找到合適的職涯方向。">
+    <title>HR×Business 人資顧問｜理解企業，也理解人才</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Plant Tour</h1>
-    <script src="JS/bootstrap.min.js"></script>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home" aria-label="HR×Business 首頁">
+                <span class="brand-mark" aria-hidden="true"><i></i><i></i></span>
+                <span class="brand-copy"><strong>HR×Business</strong><small>People · Business · Future</small></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-label="開啟導覽選單" aria-expanded="false" aria-controls="main-nav">
+                <span></span><span></span>
+            </button>
+            <nav class="main-nav" id="main-nav" aria-label="主導覽">
+                <a href="#home">首頁</a>
+                <a href="#services">服務介紹</a>
+                <a href="#why-us">關於我們</a>
+                <a href="#pricing">方案價格</a>
+                <a href="job.html">人才服務</a>
+                <a class="nav-cta" href="#contact">預約諮詢 <span aria-hidden="true">↗</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span></span> PEOPLE · BUSINESS · FUTURE</p>
+                    <h1>理解企業，<br>也理解人才</h1>
+                    <p class="hero-lead">讓企業找到對的人，<br class="mobile-break">讓人才找到適合的工作。</p>
+                    <p class="hero-description">從人力制度、招募到職涯發展，HR × Career 與你一起打造更好的工作關係。</p>
+                    <div class="hero-actions">
+                        <a class="button button-dark" href="#services">了解我們的服務 <span aria-hidden="true">→</span></a>
+                        <a class="text-link" href="#why-us"><span class="play-icon" aria-hidden="true">▶</span> 認識顧問團隊</a>
+                    </div>
+                    <div class="hero-proof"><span class="proof-line"></span> 用專業連結企業與人才</div>
+                </div>
+                <div class="hero-visual">
+                    <img src="img/AI生成專業女性.png" alt="在人資顧問辦公室工作的專業女性">
+                    <div class="hero-note"><span>HR × Career</span><strong>Better People,<br>Better Business.</strong></div>
+                    <div class="hero-index">01 <span>/</span> 04</div>
+                </div>
+            </div>
+            <div class="hero-bottom container">
+                <a href="#services"><span class="mini-icon">◎</span> 專業顧問團隊</a>
+                <a href="#why-us"><span class="mini-icon">◇</span> 客製化解決方案</a>
+                <a href="#services"><span class="mini-icon">↗</span> 全方位人資服務</a>
+                <a href="#contact"><span class="mini-icon">♧</span> 永續夥伴關係</a>
+            </div>
+        </section>
+
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT WE DO <span>／</span> 服務內容</p>
+                    <h2>讓每一段工作關係，<br class="mobile-break">都能走得更好</h2>
+                    <p>整合企業人資顧問與個人職涯服務，陪伴組織穩健成長、人才自在發揮。</p>
+                </div>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <div class="service-image"><img src="img/s02.jpg" alt="顧問與企業團隊討論人力制度" loading="lazy"><span class="service-number">01</span></div>
+                        <div class="service-content">
+                            <div class="service-title"><h3>企業服務</h3><span>B2B</span></div>
+                            <p>從制度建立到人才招募，為企業整理清楚、可落地的人資解決方案。</p>
+                            <ul><li>建立合適的人事制度</li><li>招募與人才發展</li><li>勞動法令與風險管理</li></ul>
+                            <a class="arrow-link" href="about.html">了解企業服務 <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-image"><img src="img/s03.jpg" alt="職涯顧問陪伴人才討論發展方向" loading="lazy"><span class="service-number">02</span></div>
+                        <div class="service-content">
+                            <div class="service-title"><h3>人才服務</h3><span>B2C</span></div>
+                            <p>陪你釐清職涯方向，將經驗轉化為優勢，找到適合自己的下一步。</p>
+                            <ul><li>履歷健檢與面試準備</li><li>職涯探索與轉職規劃</li><li>中高齡就業支持</li></ul>
+                            <a class="arrow-link" href="job.html">了解人才服務 <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-section" id="why-us">
+            <div class="container why-inner">
+                <div class="why-intro">
+                    <p class="eyebrow">WHY HR×BUSINESS <span>／</span> 為什麼選擇我們</p>
+                    <h2>專業是基礎，<br>理解才是開始。</h2>
+                    <p>每個企業、每段職涯都有自己的樣子。我們先理解你的處境，再一起找到真正可行的解方。</p>
+                    <a class="text-link" href="about.html">認識我們 <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="value-grid">
+                    <article class="value-item"><span class="value-icon">○</span><h3>專業顧問</h3><p>以實務經驗為基礎，提供清楚可靠的建議。</p></article>
+                    <article class="value-item"><span class="value-icon">◇</span><h3>量身規劃</h3><p>依照企業階段與個人目標，設計合適方案。</p></article>
+                    <article class="value-item"><span class="value-icon">⌁</span><h3>高效協作</h3><p>把複雜的人資議題，轉化為能執行的行動。</p></article>
+                    <article class="value-item"><span class="value-icon">♧</span><h3>永續陪伴</h3><p>不只解決眼前問題，也關心長期的發展。</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="promise-banner">
+            <div class="container promise-inner">
+                <div><p class="eyebrow">GROW TOGETHER</p><h2>專業 × 信任 × 共創未來</h2><p>讓合適的人才與企業相遇，創造長久而穩健的價值。</p></div>
+                <a class="button button-light" href="#contact">開始一場對話 <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+
+        <section class="section pricing-section" id="pricing">
+            <div class="container">
+                <div class="section-heading section-heading-compact">
+                    <p class="eyebrow">CLEAR & FLEXIBLE <span>／</span> 方案與價格</p>
+                    <h2>適合現在的方案，<br class="mobile-break">也能陪你走向下一步</h2>
+                    <p>依需求選擇服務起點，細節可再由顧問與你討論。</p>
+                </div>
+                <div class="pricing-grid">
+                    <article class="price-card">
+                        <p class="plan-label">STARTER <span>企業入門</span></p><h3>基礎顧問方案</h3><p class="plan-description">適合中小型團隊建立人資制度</p>
+                        <p class="price">NT$ 12,000 <small>起 / 月</small></p>
+                        <ul><li>人事制度初步盤點</li><li>勞動法令諮詢</li><li>每月顧問時數</li></ul>
+                        <a class="button button-outline" href="#contact">洽詢此方案 <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="price-card price-card-featured">
+                        <p class="plan-label">GROWTH <span>企業成長</span></p><h3>進階顧問方案</h3><p class="plan-description">適合正在擴編或調整組織的企業</p>
+                        <p class="price">NT$ 28,000 <small>起 / 月</small></p>
+                        <ul><li>人資制度與流程優化</li><li>招募策略與人才盤點</li><li>優先顧問支援</li></ul>
+                        <a class="button button-dark" href="#contact">洽詢此方案 <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="price-card">
+                        <p class="plan-label">PERSONAL <span>個人職涯</span></p><h3>職涯諮詢方案</h3><p class="plan-description">依個人目標安排一對一諮詢</p>
+                        <p class="price price-custom">客製報價</p>
+                        <ul><li>履歷與職涯方向盤點</li><li>面試策略與模擬</li><li>轉職行動建議</li></ul>
+                        <a class="button button-outline" href="#contact">預約諮詢 <span aria-hidden="true">→</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container contact-inner">
+                <div><p class="eyebrow">LET'S TALK</p><h2>現在開始，遇見更好的可能。</h2><p>告訴我們你正在面對的課題，顧問將協助你找到合適的下一步。</p></div>
+                <div class="contact-actions"><a class="button button-dark" href="mailto:service@hr-business.com">預約顧問諮詢 <span aria-hidden="true">↗</span></a><a class="contact-phone" href="tel:+886800123456">或來電洽詢　0800-123-456</a></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <a class="brand brand-footer" href="#home" aria-label="HR×Business 回到首頁"><span class="brand-mark" aria-hidden="true"><i></i><i></i></span><span class="brand-copy"><strong>HR×Business</strong><small>People · Business · Future</small></span></a>
+            <p>理解企業，也理解人才。<br>讓工作關係，成為更好的可能。</p>
+            <nav aria-label="頁尾導覽"><a href="#services">服務介紹</a><a href="about.html">關於我們</a><a href="job.html">人才服務</a><a href="#contact">聯絡我們</a></nav>
+            <div class="footer-contact"><span>週一至週五 09:00–18:00</span><a href="mailto:service@hr-business.com">service@hr-business.com</a></div>
+        </div>
+        <div class="container footer-bottom"><span>© 2026 HR×Business. All rights reserved.</span><span>People · Business · Future</span></div>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mainNav = document.querySelector('#main-nav');
+
+        menuToggle.addEventListener('click', () => {
+            const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', String(!isOpen));
+            menuToggle.setAttribute('aria-label', isOpen ? '開啟導覽選單' : '關閉導覽選單');
+            mainNav.classList.toggle('is-open', !isOpen);
+        });
+
+        mainNav.addEventListener('click', (event) => {
+            if (event.target.closest('a')) {
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.setAttribute('aria-label', '開啟導覽選單');
+                mainNav.classList.remove('is-open');
+            }
+        });
+    </script>
 </body>
 
 </html>
